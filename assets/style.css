@@ -1,569 +1,604 @@
-@media (min-width: 980px) and (max-width: 1280px) {
-#container{ 
-    max-width: 980px;
-}
-
-head {
-    background-color:#7DFFF8;
-    width: 100%;
-    height: 100%;
+@media only screen and (min-device-width: 980px){
    
-}
-button{ 
-    padding: 5px;
-    border: none;
-    font-family: 'EB Garamond', serif;
-}
-#about, #portfolio, #contact{
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-#about:hover, #portfolio:hover, #contact:hover{
-    color: #FCDAC7;
-}
-hr {
-    width: 580px;
-    align: left;
-    height: 20px;
-    border-width: 1px 0px 0px 0px ;
-    border-color:  #ffffff;
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
+    head {
+        
+        width: 100%;
+        height: 100%;
+       
     }
-  
-}
-body {
-    padding-top: 12px;
-    font-family: 'EB Garamond', serif;
-    
-    
-}
-div {
-    padding: 6.7px;
-}
-#buttons {
-    float:right;
-    margin-right: 90px;
-    font: 10px;
-    color: #FCDAC7;
-    font: bold;
-    font-family: 'EB Garamond', serif;
-    
-    
-}
-#buttons:hover{
-    color: #4aaaa5;
-}
-
-#name {
-    background-color: #dddddd;
-    color: #ffffff;
-    padding: 5px;
-    text-align: center;
-    margin-left: 95px;
-    font-size: 20px;
-    font-family: 'EB Garamond', serif;
- }
-
-h1 {
-    color:#4aaaa5;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    font-size: 25px;
-    font-family: 'EB Garamond', serif;
-
-
-}
-form{
-    color: #4aaaa5;
-    font-family: 'Montserrat', sans-serif;
- 
-}
-#full {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    height: 450px;
-    clear: both;
-    overflow: auto;
-    padding: 10px;
-    border: solid;
-    border-color: #dddddd;
-    border-width: 20px 100px 80px 100px;
-    margin: -1px 2px 0px 2px;
-    
-}
-
-
-aside {
-    width: 165px;
-    height: 200px;
-    float: left;
-
-}
-main { 
-      height: 200px;
-      font-family: 'Montserrat', sans-serif;
-      
-   
-  }
-
-footer{
-    position: fixed;
-    bottom:0;
-    left:0;
-    width: 100%;
-    background-color: #dddddd;
-    background-size: 10px;
-    text-align: center;
-    font-size: 10px;
-    border: solid;
-    border-width: 4px 0px 0px 0px;
-    border-color: #FCDAC7;
-    color: rgb(194, 143, 115);
-}
-.name {
-    width: 330px;
-    height: 12px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-.email {
-    width: 330px;
-    height: 12px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-.comment {
-    width: 330px;
-    height: 130px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-
-#submit {
-    background-color: #4aaaa5; /* Green */
-    border: none; 
-    color:#ffffff;
-    padding: 9px 15px;
-    margin-top: 5px;
-    text-align: center;
-    text-shadow: 0.7px 0.7px #31615e; 
-    display: inline-block;
-    font-size: 12px;
-    box-shadow: 1px 1px #486f6d;
-    font-family: 'EB Garamond', serif;
-
-  }
-
-#submit:hover:{
-    background-color: #ffffff;
-}
-  
-#test {
-    width: 130px;
-    height: 130px;
-}
-#projects {
-    background-color: #FCDAC7;
-}
-#games{
-    background-color: #FCDAC7;
-
-}
-#website{
-    background-color: #FCDAC7;
-}
-} 
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media (min-width:768px) and (max-width: 979px) {
-
-head {
-    background-color:#7DFFF8;
-    width: 100%;
-    height: 100%;
-   
-}
-button{ 
-    padding: 5px;
-    border: none;
-    font-family: 'EB Garamond', serif;
-}
-#about, #portfolio, #contact{
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-#about:hover, #portfolio:hover, #contact:hover{
-    color: #FCDAC7;
-}
-hr {
-    width: 580px;
-    align: left;
-    height: 20px;
-    border-width: 1px 0px 0px 0px ;
-    border-color:  #ffffff;
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
+    button{ 
+        padding: 5px;
+        border: none;
+        font-family: 'EB Garamond', serif;
     }
-  
-}
-body {
-    padding-top: 12px;
-    font-family: 'EB Garamond', serif;
-    
-    
-}
-div {
-    padding: 6.7px;
-}
-#buttons {
-    float:right;
-    margin-right: 90px;
-    font: 10px;
-    color: #FCDAC7;
-    font: bold;
-    font-family: 'EB Garamond', serif;
-    
-    
-}
-#buttons:hover{
-    color: #4aaaa5;
-}
-
-#name {
-    background-color: #dddddd;
-    color: #ffffff;
-    padding: 0px;
-    text-align: center;
-    margin-left: 95px;
-    font-size: 15px;
-    font-family: 'EB Garamond', serif;
- }
-
-h1 {
-    color:#4aaaa5;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    font-size: 25px;
-    font-family: 'EB Garamond', serif;
-
-
-}
-form{
-    color: #4aaaa5;
-    font-family: 'Montserrat', sans-serif;
- 
-}
-#full {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    height: 450px;
-    clear: both;
-    overflow: auto;
-    padding: 10px;
-    border: solid;
-    border-color: #dddddd;
-    border-width: 20px 100px 80px 100px;
-    margin: -1px 2px 0px 2px;
-    
-}
-
-
-aside {
-    width: 165px;
-    height: 200px;
-    float: left;
-
-}
-main { 
-      height: 200px;
-      font-family: 'Montserrat', sans-serif;
-      
-   
-  }
-
-footer{
-    position: fixed;
-    bottom:0;
-    left:0;
-    width: 100%;
-    background-color: #dddddd;
-    background-size: 10px;
-    text-align: center;
-    font-size: 10px;
-    border: solid;
-    border-width: 4px 0px 0px 0px;
-    border-color: #FCDAC7;
-    color: rgb(194, 143, 115);
-}
-.name {
-    width: 330px;
-    height: 12px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-.email {
-    width: 330px;
-    height: 12px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-.comment {
-    width: 330px;
-    height: 130px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-
-#submit {
-    background-color: #4aaaa5; /* Green */
-    border: none; 
-    color:#ffffff;
-    padding: 9px 15px;
-    margin-top: 5px;
-    text-align: center;
-    text-shadow: 0.7px 0.7px #31615e; 
-    display: inline-block;
-    font-size: 12px;
-    box-shadow: 1px 1px #486f6d;
-    font-family: 'EB Garamond', serif;
-
-  }
-
-#submit:hover:{
-    background-color: #ffffff;
-}
-  
-#test {
-    width: 130px;
-    height: 130px;
-}
-#projects {
-    background-color: #FCDAC7;
-}
-#games{
-    background-color: #FCDAC7;
-
-}
-#website{
-    background-color: #FCDAC7;
-}
-} 
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media (min-width: 640px) (max-width: 768px){
-
-head {
-    background-color:#7DFFF8;
-    width: 100%;
-    height: 100%;
-   
-}
-button{ 
-    padding: 0;
-    border: none;
-    font-family: 'EB Garamond', serif;
-}
-#about, #portfolio, #contact{
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-#about:hover, #portfolio:hover, #contact:hover{
-    color: #FCDAC7;
-}
-hr {
-    width: 640px;
-    align: left;
-    height: 20px;
-    border-width: 1px 0px 0px 0px ;
-    border-color:  #ffffff;
-    display: block;
-    unicode-bidi: isolate;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: auto;
-    margin-inline-end: auto;
-    overflow: hidden;
+    #about, #portfolio, #contact{
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
     }
-  
-}
-body {
-    padding-top: 12px;
-    height: 100%;
-    font-family: 'EB Garamond', serif;
+    #about:hover, #portfolio:hover, #contact:hover{
+        color: #FCDAC7;
+    }
+    hr {
+        width: 100%;
+        box-align: left;
+        height: 20px;
+        border-width: 1px 0px 0px 0px ;
+        border-color:  #ffffff;
+        display: block;
+        unicode-bidi: isolate;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        overflow: hidden;
+        }
+
+    body {
+        padding-top: 12px;
+        font-family: 'EB Garamond', serif;
+        
+        
+    }
+    div {
+        padding: 6.7px;
+    }
+    #buttons {
+        float:right;
+        margin-right: 90px;
+        font: 10px;
+        color: #FCDAC7;
+        font: bold;
+        font-family: 'EB Garamond', serif;
+        
+        
+    }
+    #buttons:hover{
+        color: #4aaaa5;
+    }
+    
+    #name {
+        
+        background-color: #dddddd;
+        color: #ffffff;
+        padding: 5px;
+        text-align: center;
+        margin-left: 95px;
+        font-size: 20px;
+        font-family: 'EB Garamond', serif;
+     }
+    
+    h1 {
+        color:#4aaaa5;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-family: 'EB Garamond', serif;
     
     
-}
-div {
-    padding: 6.7px;
-}
-#buttons {
-    float:right;
-    margin-right: 90px;
-    font: 10px;
-    color: #FCDAC7;
-    font: bold;
-    font-family: 'EB Garamond', serif;
+    }
+    form{
+        color: #4aaaa5;
+        font-family: 'Montserrat', sans-serif;
+     
+    }
+    #full {
+        box-sizing: border-box;
+        background-color: #ffffff;
+        height: 100%;
+        clear: both;
+        overflow: auto;
+        padding: 10px;
+        border: solid;
+        border-color: #dddddd;
+        border-width: 20px 100px 100px 100px;
+        margin: 1px 2px 0px 2px;
+        
+    }
     
     
-}
-#buttons:hover{
-    color: #4aaaa5;
-}
-
-#name {
-    background-color: #dddddd;
-    color: #ffffff;
-    padding: 5px;
-    text-align: center;
-    margin-left: 95px;
-    font-size: 20px;
-    font-family: 'EB Garamond', serif;
- }
-
-h1 {
-    color:#4aaaa5;
-    margin-top: 0px;
-    margin-bottom: 5px;
-    font-size: 25px;
-    font-family: 'EB Garamond', serif;
-
-
-}
-form{
-    color: #4aaaa5;
-    font-family: 'Montserrat', sans-serif;
- 
-}
-#full {
-    box-sizing: border-box;
-    background-color: #ffffff;
-    height: 100%;
-    clear: both;
-    overflow: auto;
-    padding: 10px;
-    border: solid;
-    border-color: #dddddd;
-    border-width: 20px 100px 80px 100px;
-    margin: -1px 2px 0px 2px;
+    aside {
+        width: 165px;
+        height: 200px;
+        float: left;
     
-}
-
-
-aside {
-    width: 165px;
-    height: 200px;
-    float: left;
-
-}
-main { 
-      height: 200px;
-      font-family: 'Montserrat', sans-serif;
+    }
+    main { 
+          height: 200px;
+          font-family: 'Montserrat', sans-serif;
+          
+       
+      }
+    
+    footer{
+        position: fixed;
+        bottom:0;
+        left:0;
+        width: 100%;
+        background-color: #dddddd;
+        background-size: 10px;
+        text-align: center;
+        font-size: 10px;
+        border: solid;
+        border-width: 4px 0px 0px 0px;
+        border-color: #FCDAC7;
+        color: rgb(194, 143, 115);
+    }
+    .name {
+        width: 330px;
+        height: 12px;
+        padding: 10px;
+        background-color: #ffffff;
+        font: 10px;
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
+    }
+    .email {
+        width: 330px;
+        height: 12px;
+        padding: 10px;
+        background-color: #ffffff;
+        font: 10px;
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
+    }
+    .comment {
+        width: 330px;
+        height: 120px;
+        padding: 10px;
+        background-color: #ffffff;
+        font: 16px;
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
+        text-align: left;
+    }
+    
+    #submit {
+        background-color: #4aaaa5; /* Green */
+        border: none; 
+        color:#ffffff;
+        padding: 9px 15px;
+        margin-top: 5px;
+        text-align: center;
+        text-shadow: 0.7px 0.7px #31615e; 
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 1px 1px #486f6d;
+        font-family: 'EB Garamond', serif;
+    
+      }
+    
+    #submit:hover {
+        background-color: #ffffff;
+    }
       
-   
-  }
+    #test {
+        width: 130px;
+        height: 130px;
+    }
+    #projects {
+        background-color: #FCDAC7;
+        text-align: center;
+    }
+    #games{
+        background-color: #FCDAC7;
+    
+    }
+    #website{
+        background-color: #FCDAC7;
+    }
+    }
 
-footer{
-    position: fixed;
-    bottom:0;
-    left:0;
-    width: 100%;
-    background-color: #dddddd;
-    background-size: 10px;
-    text-align: center;
-    font-size: 10px;
-    border: solid;
-    border-width: 4px 0px 0px 0px;
-    border-color: #FCDAC7;
-    color: rgb(194, 143, 115);
-}
-.name {
-    width: 330px;
-    height: 12px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-.email {
-    width: 330px;
-    height: 12px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
-.comment {
-    width: 330px;
-    height: 130px;
-    padding: 10px;
-    background-color: #ffffff;
-    font: 10px;
-    color: #4aaaa5;
-    font-family: 'EB Garamond', serif;
-}
+    @media only screen and (min-device-width: 641px) and (max-device-width: 979px){
 
-#submit {
-    background-color: #4aaaa5; /* Green */
-    border: none; 
-    color:#ffffff;
-    padding: 9px 15px;
-    margin-top: 5px;
-    text-align: center;
-    text-shadow: 0.7px 0.7px #31615e; 
-    display: inline-block;
-    font-size: 12px;
-    box-shadow: 1px 1px #486f6d;
-    font-family: 'EB Garamond', serif;
+        .container{
+            width: 100%;
+            height: 100%;
+        }
+        head {
+            background-color:#7DFFF8;
+            width: 100%;
+            height: 100%;
+           
+        }
+        #name {
+            
+            background-color: #dddddd;
+            color: #ffffff;
+            padding: 5px;
+            text-align: center;
+            margin-left: 95px;
+            font-size: 20px;
+            font-family: 'EB Garamond', serif;
+         }
+        button{ 
+            
+            padding: 5px;
+            border: none;
+            font-family: 'EB Garamond', serif;
+        }
+        #about, #portfolio, #contact{
+            color: #4aaaa5;
+            font-family: 'EB Garamond', serif;
+        }
+        #about:hover, #portfolio:hover, #contact:hover{
+            color: #FCDAC7;
+        }
+        hr {
+            width: 100%;
+            box-align: left;
+            height: 20px;
+            border-width: 1px 0px 0px 0px ;
+            border-color: #ffffff;
+            display: block;
+            unicode-bidi: isolate;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+            margin-inline-start: auto;
+            margin-inline-end: auto;
+            overflow: hidden;
+            }
+          
+        body {
+            height: 100%;
+            padding-top: 12px;
+            font-family: 'EB Garamond', serif;
+            
+            
+        }
+        div {
+            padding: 6.7px;
+        }
+        #buttons {
+            float:right;
+            margin-right: 90px;
+            font: 10px;
+            color: #FCDAC7;
+            font: bold;
+            font-family: 'EB Garamond', serif;
+            
+            
+        }
+        #buttons:hover{
+            color: #4aaaa5;
+        }
+        
+        h1 {
+            color:#4aaaa5;
+            margin-top: 0px;
+            margin-bottom: 5px;
+            font-size: 25px;
+            font-family: 'EB Garamond', serif;
+        
+        
+        }
+        form{
+            color: #4aaaa5;
+            font-family: 'Montserrat', sans-serif;
+         
+        }
+        #full {
+            box-sizing: border-box;
+            background-color: #ffffff;
+            height: 450px;
+            clear: both;
+            overflow: auto;
+            padding: 10px;
+            border: solid;
+            border-color: #dddddd;
+            border-width: 20px 100px 80px 100px;
+            margin: 1px 2px 0px 2px;
+            
+        }
+        
+        
+        aside {
+            width: 165px;
+            height: 200px;
+            float: left;
+        
+        }
+        main { 
+              height: 200px;
+              font-family: 'Montserrat', sans-serif;
+              
+           
+          }
+        
+        footer{
+            position: fixed;
+            bottom:0;
+            left:0;
+            width: 100%;
+            background-color: #dddddd;
+            background-size: 10px;
+            text-align: center;
+            font-size: 10px;
+            border: solid;
+            border-width: 4px 0px 0px 0px;
+            border-color: #FCDAC7;
+            color: rgb(194, 143, 115);
+        }
+        .name {
+            width: 330px;
+            height: 12px;
+            padding: 10px;
+            background-color: #ffffff;
+            font: 10px;
+            color: #4aaaa5;
+            font-family: 'EB Garamond', serif;
+        }
+        .email {
+            width: 330px;
+            height: 12px;
+            padding: 10px;
+            background-color: #ffffff;
+            font: 10px;
+            color: #4aaaa5;
+            font-family: 'EB Garamond', serif;
+        }
+        .comment {
+            width: 330px;
+            height: 120px;
+            padding: 10px;
+            background-color: #ffffff;
+            font: 16px;
+            color: #4aaaa5;
+            font-family: 'EB Garamond', serif;
+            text-align: left;
+        }
+        
+        #submit {
+            background-color: #4aaaa5; /* Green */
+            border: none; 
+            color:#ffffff;
+            padding: 9px 15px;
+            margin-top: 5px;
+            text-align: center;
+            text-shadow: 0.7px 0.7px #31615e; 
+            display: inline-block;
+            font-size: 16px;
+            box-shadow: 1px 1px #486f6d;
+            font-family: 'EB Garamond', serif;
+        
+          }
+        
+        #submit:hover {
+            background-color: #ffffff;
+        }
+          
+        #test {
+            width: 130px;
+            height: 130px;
+        }
+        
+        #projects {
+            margin-left: 20%;
+            background-color: #FCDAC7;
+        }
+        #games{
+            margin-right: 1px;
+            background-color: #FCDAC7;
+        
+        }
+        #website{
+            margin-right: 10%;
+            background-color: #FCDAC7;
+        }
+    
+    
+    
+    }
+@media only screen and (max-device-width: 640px){
+    html{
+        height: 100%;
+    }
 
-  }
+    .container{
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    head {
+        background-color:#7DFFF8;
+        width: 100%;
+        height: 100%;
+       
+    }
+    #name {
+        box-sizing: border-box;
+        float: right;
+       
+        position: relative;
+        background-color: #dddddd;
+        background-size: 100% 30%;
+        color: #ffffff;
+        padding: 5px;
+        text-align: center;
+        font-size: 50px;
+        font-family: 'EB Garamond', serif;
+        width: 100%;
+    
+     }
+    button { 
+        
+        padding: 5px;
+        border: none;
+        font-family: 'EB Garamond', serif;
+    }
+    #about, #portfolio, #contact {
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
+    }
+    #about:hover, #portfolio:hover, #contact:hover{
+        color: #FCDAC7;
+    }
+    hr {
+        width: 100%;
+        box-align: left;
+        height: 20px;
+        border-width: 1px 0px 0px 0px ;
+        border-color: #ffffff;
+        display: block;
+        unicode-bidi: isolate;
+        margin-block-start: 0em;
+        margin-block-end: 0em;
+        margin-inline-start: auto;
+        margin-inline-end: auto;
+        overflow: hidden;
+        } 
+    body {
+        margin: none;
+        height: 100%;
+        font-family: 'EB Garamond', serif;  
+    }
+    div {
+        padding: 6.7px;
+    }
+    #buttons {
+        box-sizing: border-box;
+        position: relative;
+        float:left;
+        margin-left: 45%;
+        margin-right: 10%;
+        color: #FCDAC7;
+        font: bold;
+        font-family: 'EB Garamond', serif;
+        width:100%;
 
-#submit:hover:{
-    background-color: #ffffff;
-}
-  
-#test {
-    width: 130px;
-    height: 130px;
-}
-#projects {
-    background-color: #FCDAC7;
-}
-#games{
-    background-color: #FCDAC7;
+        
+        
+    }
+    #buttons:hover{
+        color: #4aaaa5;
+    }
+    h1 {
+        color:#4aaaa5;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 25px;
+        font-family: 'EB Garamond', serif;
+    
+    
+    }
+    form{
+        color: #4aaaa5;
+        font-family: 'Montserrat', sans-serif;
+     
+    }
+    #full {
+        position: relative;
+        box-sizing: border-box;
+        background-color: #ffffff;
+        height: 89%;
+        width: 100%;
+        clear: both;
+        overflow: auto;
+        padding: 10px;
+        border: solid;
+        border-color: #dddddd;
+        border-width: 20px 120px 80px 120px;
 
-}
-#website{
-    background-color: #FCDAC7;
-}
+        
+    }
+    
+    
+    aside {
+        width: 165px;
+        height: 200px;
+        float: left;
+    
+    }
+    main { 
+          height: 200px;
+          font-family: 'Montserrat', sans-serif;
+          
+       
+      }
+    
+    footer{
+        position: fixed;
+        bottom:0;
+        left:0;
+        width: 100%;
+        background-color: #dddddd;
+        background-size: 10px;
+        text-align: center;
+        font-size: 10px;
+        border: solid;
+        border-width: 4px 0px 0px 0px;
+        border-color: #FCDAC7;
+        color: rgb(194, 143, 115);
+    }
+    .name {
+        width: 100%;
+        height: 12px;
+        padding: 10px;
+        background-color: #ffffff;
+        font: 10px;
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
+    }
+    .email {
+        width: 100%;
+        height: 12px;
+        padding: 10px;
+        background-color: #ffffff;
+        font: 10px;
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
+    }
+    .comment {
+        width: 100%;
+        height: 120px;
+        padding: 10px;
+        background-color: #ffffff;
+        font: 16px;
+        color: #4aaaa5;
+        font-family: 'EB Garamond', serif;
+        text-align: left;
+    }
+    
+    #submit {
+        background-color: #4aaaa5; /* Green */
+        border: none; 
+        color:#ffffff;
+        padding: 9px 15px;
+        margin-top: 5px;
+        text-align: center;
+        text-shadow: 0.7px 0.7px #31615e; 
+        display: inline-block;
+        font-size: 16px;
+        box-shadow: 1px 1px #486f6d;
+        font-family: 'EB Garamond', serif;
+    
+      }
+    
+    #submit:hover {
+        background-color: #ffffff;
+    }
+    
+    #test {
+        width: 130px;
+        height: 130px;
+    }
+    #projects, #games, #website {
+        float: left;
+        box-sizing: border-box;
+    }
+    #projects {
+        background-color: #FCDAC7;
+    }
+    #games{
+
+        background-color: #FCDAC7;
+    
+    }
+    #website{
+       
+        background-color: #FCDAC7;
+    }
+
+
+
 }
